@@ -1,6 +1,6 @@
 Feature: This feature allows user to login
 
-
+ @smoke
   Scenario: user can login with valid credentials
     Given user navigate to the login page
     When user verify login page it's displayed
